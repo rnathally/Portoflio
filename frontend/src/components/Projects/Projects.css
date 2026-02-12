@@ -255,6 +255,13 @@
     padding: 18px 20px;
   }
 
+  /* Ajuste para o botão */
+  .btn-primary {
+    padding: 12px 60px;  /* Ajuste a largura e altura */
+    font-size: 0.9rem;    /* Diminui a fonte */
+    border-radius: 0;     /* Remove o arredondamento */
+  }
+  
   .modal-close {
     top: 8px;
     right: 10px;

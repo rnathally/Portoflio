@@ -58,7 +58,7 @@ export default function Contact() {
           </div>
 
           <div className="work-reasons">
-            <h3>Por que trabalhar com a gente?</h3>
+            <h3>Por que escolher o meu trabalho?</h3>
             <ul>
               <li>
                 <CheckCircle />
