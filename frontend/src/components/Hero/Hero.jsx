@@ -14,7 +14,7 @@ export default function Hero({ onVerProjetosClick }) {
         </p>
        <div className="hero-buttons">
   <button onClick={onVerProjetosClick}>Ver Meus Projetos</button>
-  <a href="/currículo-nathally.pdf" download className="btn-secondary">Download CV</a>
+  <a href="/curriculo.pdf" download className="btn-secondary">Download CV</a>
 </div>
         <div className="hero-icons">
           <a href="https://github.com/natrneves"><FaGithub /></a>
