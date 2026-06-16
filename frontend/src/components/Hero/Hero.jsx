@@ -14,10 +14,16 @@ export default function Hero({ onVerProjetosClick }) {
         </p>
        <div className="hero-buttons">
   <button onClick={onVerProjetosClick}>Ver Meus Projetos</button>
-  <a href="/CVNathallyNeves.pdf" download className="btn-secondary">Download CV</a>
+  <a
+  href={`${import.meta.env.BASE_URL}CVNathallyNeves.pdf`}
+  download="CVNathallyNeves.pdf"
+  className="btn-secondary"
+>
+  Download CV
+</a>
 </div>
         <div className="hero-icons">
-          <a href="https://github.com/natrneves"><FaGithub /></a>
+          <a href="https://github.com/rnathally"><FaGithub /></a>
           <a href="https://www.linkedin.com/in/nathally-neves-482aa6325/"><FaLinkedin /></a>
           <a href="https://www.instagram.com/nathallynevs/"><FaInstagram /></a>
         </div>
