@@ -35,13 +35,13 @@ function Projects() {
       emAndamento: true,
     },
     {
-      title: "Site Institucional Dev4u",
+      title: "Landing Page Dev4u",
       description: "Site institucional desenvolvido para a empresa Dev4u com foco em apresentação de serviços, contato e identidade visual profissional.",
       year: 2024,
       tags: ["Wordpress", "CSS", "Figma"],
       img: "/imagens/site.png",
       emAndamento: false,
-      link: "https://dev4u.com.br",
+      link: "https://lp.dev4u.com.br",
     },
     {
       title: "Site Institucional Impulsia",
