@@ -36,10 +36,10 @@ function Projects() {
     },
     {
       title: "Landing Page Dev4u",
-      description: "Site institucional desenvolvido para a empresa Dev4u com foco em apresentação de serviços, contato e identidade visual profissional.",
+      description: "Landing Page desenvolvida para a empresa Dev4u com foco em apresentação de serviços, contato e identidade visual profissional.",
       year: 2024,
       tags: ["Wordpress", "CSS", "Figma"],
-      img: "/imagens/site.png",
+      img: "/imagens/LP.png",
       emAndamento: false,
       link: "https://lp.dev4u.com.br",
     },
