@@ -1,11 +1,11 @@
-# Meu Portfólio em React
+# Meu Portfólio
 
-Olá! Sou Nathally Neves, Web Designer e UI/UX Designer. Este repositório é o início do meu primeiro portfólio desenvolvido em React.
+Olá! Sou Nathally Neves, Estudante de Cliência da Computação. Este repositório é o início do meu primeiro portfólio desenvolvido em React.
 
 ## Sobre o projeto
 
-Este projeto tem como objetivo apresentar meus trabalhos e habilidades em design de forma interativa e moderna, utilizando React como base.  
-Ele está em constante desenvolvimento, sendo aprimorado conforme evoluo no aprendizado de front-end e melhores práticas de design.
+Este projeto tem como objetivo apresentar meus trabalhos e habilidades de forma interativa e moderna, utilizando React como base.  
+Ele está em constante desenvolvimento, sendo aprimorado conforme evoluo no aprendizado.
 
 ## Tecnologias e ferramentas
 
@@ -13,6 +13,7 @@ Ele está em constante desenvolvimento, sendo aprimorado conforme evoluo no apre
 - HTML
 - CSS
 - Framer Motion
+- Figma
 
 ## Status
 
@@ -28,8 +29,7 @@ O objetivo é evoluir o layout, adicionar novos projetos, otimizar a responsivid
 
 ## Sobre mim
 
-Sou Web Designer com foco em UI/UX, apaixonada por criar experiências digitais que sejam bonitas e fáceis de usar.  
-Este portfólio é o primeiro passo para mostrar meus projetos e minha evolução como desenvolvedora front-end e Designer UI/UX.
+Sou estudante de Ciência da Computação, com interesse em desenvolvimento web, UI/UX e soluções digitais funcionais.
 
 ## Contribuição
 
