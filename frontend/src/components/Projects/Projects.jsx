@@ -34,7 +34,7 @@ function Projects() {
       tags: ["React", "TypeScript", "Vite", "React Router", "CSS","Figma"],
       img: "/imagens/wewine.png",
       emAndamento: false,
-      link: "https://wewine.vercel.app"
+      link: "https://wewine-p.vercel.app"
     },
 
     {
