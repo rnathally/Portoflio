@@ -19,21 +19,24 @@ function Projects() {
       link: "https://projeto-guido.vercel.app"
     },
     {
-      title: "Registro digital de cuidados dos pets",
-      description: "Interface para tutores cadastrarem consultas, vacinas e alertas, com exportação em PDF para envio ao veterinário. Projeto em andamento",
-      year: 2025,
-      tags: ["Adobe Illustrator", "Adobe Photoshop", "Figma"],
-      img: "/imagens/carregando.png",
+      title: "DogDex ",
+      description: "Aplicação web criada para apoiar a adoção de cachorros comunitários da UNESC, apresentando os animais em formato de cartas colecionáveis. O projeto permite visualizar informações dos cães, registrar capturas por QR Code e tornar a experiência mais interativa, aproximando tecnologia, design e causa animal.",
+      year: 2026,
+      tags: ["React", "JavaScript", "Supabase", "CSS","Figma"],
+      img: "/imagens/Dogdex.png",
       emAndamento: true,
     },
+
     {
-      title: "Painel de produtividade para freelancers",
-      description: "Projeto pessoal para desenvolver uma interface para freelances acompanharem tarefas, prazos, horas trabalhadas e pagamentos. Protótipo em desenvolvimento",
+      title: "WeWine ",
+      description: "Sistema web  desenvolvido para a gestão de uma empresa de vinhos fictícia, com acompanhamento de pedidos, representantes, clientes e estoque. O projeto faz parte de uma proposta integrada com aplicativo mobile para consulta da cartela de vinhos e realização de pedidos.",
       year: 2025,
-      tags: ["React", "CSS", "Figma", "Node.js"],
-      img: "/imagens/carregando.png",
-      emAndamento: true,
+      tags: ["React", "TypeScript", "Vite", "React Router", "CSS","Figma"],
+      img: "/imagens/wewine.png",
+      emAndamento: false,
+      link: "https://wewine.vercel.app"
     },
+
     {
       title: "Landing Page Dev4u",
       description: "Landing Page desenvolvida para a empresa Dev4u com foco em apresentação de serviços, contato e identidade visual profissional.",

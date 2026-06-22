@@ -9,8 +9,7 @@ export default function Footer() {
         <div className="footer-column">
           <h3>Nathally Neves</h3>
           <p>
-            Web Designer & Estudante de Ciência da Computação especializada em UI/UX.
-            Criando experiências digitais que conectam pessoas e tecnologia.
+            Estudante de Ciência da Computação em desenvolvimento.
           </p>
           <div className="footer-icons">
             <a href="https://github.com/natrneves" target="_blank" rel="noopener noreferrer">
@@ -42,7 +41,7 @@ export default function Footer() {
           <h4>Contato</h4>
           <p><strong>Email</strong><br /><a href="mailto:nathally@email.com">nathallyr06@gmail.com</a></p>
           <p><strong>Localização</strong><br />Criciúma, SC</p>
-          <p><strong>Disponibilidade</strong><br />Aberta para novos projetos</p>
+          <p><strong>Disponibilidade</strong><br />Aberta para novas oportunidades</p>
         </div>
       </div>
 

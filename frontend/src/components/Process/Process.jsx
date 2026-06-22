@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Process.css";
 import { FaComments, FaSearch, FaPencilRuler, FaRocket } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -75,3 +75,4 @@ const Process = () => {
 };
 
 export default Process;
+//

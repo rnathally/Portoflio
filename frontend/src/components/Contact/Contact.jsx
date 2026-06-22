@@ -1,100 +1,96 @@
-import { useState } from 'react';
-import { Mail, MapPin, CheckCircle } from 'lucide-react';
-import './Contact.css';
+import { Mail, MapPin, CheckCircle, Send } from "lucide-react";
+import "./Contact.css";
 
 export default function Contact() {
-  const [status, setStatus] = useState('');
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const form = e.target;
-    const data = new FormData(form);
-
-    try {
-      await fetch('https://formspree.io/f/mldnzbqv', {
-        method: 'POST',
-        body: data,
-        headers: {
-          'Accept': 'application/json'
-        }
-      });
-      setStatus('Mensagem enviada com sucesso!');
-      form.reset();
-    } catch (error) {
-      setStatus('Ocorreu um erro. Tente novamente.');
-    }
+  const handleEmailClick = () => {
+    window.location.href =
+      "mailto:nathallyr06@gmail.com?subject=Contato pelo portfólio";
   };
 
   return (
     <section id="contact" className="contact-section">
-      {/* Título da seção */}
       <div className="contact-title fade-in-up">
-        <h2>Vamos trabalhar juntos?</h2>
-        <p>Entre em contato e tire sua ideia do papel com a gente.</p>
+        <h2>Entre em contato</h2>
+        <p>
+          Estou em busca de uma oportunidade na área de tecnologia e deixo aqui meus contatos profissionais.
+
+        </p>
       </div>
 
-      {/* Container principal */}
-      <div className="contact-container">
-        {/* Lado esquerdo: info */}
-        <div className="contact-info fade-in-left">
-          <div className="contact-card">
-            <div className="contact-card-icon">
-              <Mail />
-            </div>
-            <div className="contact-card-content">
-              <h4>Email</h4>
-              <p>nathallyr06@gmail.com</p>
-            </div>
-          </div>
+      <div className="contact-grid">
+        <div className="contact-main-card fade-in-left">
+          <span className="contact-pill">Aberta a oportunidades</span>
 
-          <div className="contact-card">
-            <div className="contact-card-icon">
-              <MapPin />
-            </div>
-            <div className="contact-card-content">
-              <h4>Localização</h4>
-              <p>Criciúma - SC, Brasil</p>
-            </div>
-          </div>
+          <h3>Fique à vontade para me chamar</h3>
 
-          <div className="work-reasons">
-            <h3>Por que escolher o meu trabalho?</h3>
-            <ul>
-              <li>
-                <CheckCircle />
-                Design centrado no usuário
-                <span>Interfaces bonitas, funcionais e focadas na experiência.</span>
-              </li>
-              <li>
-                <CheckCircle />
-                Acompanhamento próximo
-                <span>Do briefing à entrega, com comunicação clara e constante.</span>
-              </li>
-              <li>
-                <CheckCircle />
-                Do design à entrega digital
-                <span>Seja em WordPress, React ou outra solução, transformo boas ideias em experiências digitais reais e funcionais.</span>
-              </li>
-            </ul>
-          </div>
+          <p>
+           Caso queira conhecer melhor meu trabalho ou entrar em contato profissionalmente, você pode me chamar pelo e-mail ou pelo WhatsApp clicando no botão a direita.
+          </p>
+
+          <button
+            type="button"
+            className="contact-email-button"
+            onClick={handleEmailClick}
+          >
+            <Send size={18} />
+            Enviar e-mail
+          </button>
         </div>
 
-        {/* Formulário */}
-        <div className="contact-form fade-in-right">
-          <div className="form-header">
-            <h2>Vamos conversar sobre sua ideia?</h2>
-            <p>Preencha o formulário e entraremos em contato em até 48h.</p>
-          </div>
-          <form onSubmit={handleSubmit}>
-            <div className="form-row">
-              <input type="text" name="nome" placeholder="Nome" required />
-              <input type="email" name="email" placeholder="E-mail" required />
+        <div className="contact-side fade-in-right">
+          <div className="contact-cards-row">
+            <div className="contact-card">
+              <div className="contact-card-icon">
+                <Mail />
+              </div>
+
+              <div className="contact-card-content">
+                <h4>Email</h4>
+                <p>nathallyr06@gmail.com</p>
+              </div>
             </div>
-            <input type="text" name="assunto" placeholder="Assunto" required />
-            <textarea name="mensagem" placeholder="Mensagem" required></textarea>
-            <button type="submit">Enviar mensagem</button>
-            {status && <p className="form-status">{status}</p>}
-          </form>
+
+            <div className="contact-card">
+              <div className="contact-card-icon">
+                <MapPin />
+              </div>
+
+              <div className="contact-card-content">
+                <h4>Localização</h4>
+                <p>Criciúma - SC, Brasil</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="interest-card">
+            <h3>Áreas de interesse</h3>
+
+            <div className="interest-list">
+              <div className="interest-item">
+                <CheckCircle />
+                <div>
+                  <strong>Desenvolvimento Web</strong>
+                  <span>Interfaces funcionais, responsivas e organizadas.</span>
+                </div>
+              </div>
+
+              <div className="interest-item">
+                <CheckCircle />
+                <div>
+                  <strong>Sistemas e Suporte ao Usuário</strong>
+                  <span>Ferramentas digitais, usuários e melhoria de processos.</span>
+                </div>
+              </div>
+
+              <div className="interest-item">
+                <CheckCircle />
+                <div>
+                  <strong>UI/UX e Design</strong>
+                  <span>Usabilidade, prototipagem e experiência do usuário.</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

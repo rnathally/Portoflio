@@ -5,7 +5,6 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
-import Process from "./components/Process/Process";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import WhatsAppButton from './components/WhatsAppButton';
@@ -24,7 +23,6 @@ function App() {
       <Hero onVerProjetosClick={scrollParaProjetos} />
       <About />
       <Skills />
-      <Process />
       <WhatsAppButton />
       
       

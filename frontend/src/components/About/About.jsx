@@ -10,10 +10,14 @@ export default function About() {
         <div className="text-area">
           <h2>Sobre Mim</h2>
           <hr />
-          <p>Crio experiências digitais com propósito: planejo, projeto e desenvolvo interfaces que funcionam.</p>
-<p>Atuo desde os primeiros esboços até a entrega final, seja com código ou WordPress, aplicando princípios de <strong>UI/UX, SEO e marketing digital desde a base.</strong> Utilizo <strong>metodologias ágeis</strong> para garantir eficiência, alinhamento com o cliente e entregas evolutivas.</p>
-<p>Além do digital, também trabalho com design gráfico, desenvolvendo peças para redes sociais, identidade visual e materiais de comunicação que fortalecem a presença da marca.</p>
-<p>Acredito que um bom design vai além da estética: <strong>ele deve comunicar com clareza, gerar valor e entregar resultados reais.</strong></p>
+          <p>Sou estudante de Ciência da Computação e busco uma oportunidade na área de tecnologia, onde eu possa aplicar meus conhecimentos, aprender na prática e contribuir com soluções digitais funcionais.</p>
+
+<p>Tenho conhecimentos em <strong>HTML, CSS, JavaScript, React, WordPress, UI/UX e design gráfico</strong>, além de experiência com ferramentas digitais, organização de processos e suporte a usuários.</p>
+
+<p>Gosto de unir tecnologia e design para criar soluções claras, organizadas e fáceis de usar, sempre pensando na experiência do usuário e na melhoria dos processos.</p>
+
+<p>Acredito que uma boa solução digital deve ser mais do que visualmente agradável: <strong>ela precisa ser funcional, bem estruturada, acessível e facilitar a rotina das pessoas no dia a dia.</strong></p>
+
 
           <div className="badge">
             <i className="icon">
@@ -30,31 +34,31 @@ export default function About() {
         <div className="cards-area">
           <div className="card">
             <i className="icon"><Code2 size={18} /></i>
-            <h4>Desenvolvimento</h4>
-            <p>Criando soluções web modernas e eficientes</p>
+            <h4>Desenvolvimento Web</h4>
+            <p>Criação de interfaces modernas, responsivas e funcionais.</p>
           </div>
           <div className="card">
             <i className="icon"><PenTool size={18} /></i>
-            <h4>Design</h4>
-            <p>Designs que unem estética, usabilidade e resultado</p>
+            <h4>Suporte a Sistemas</h4>
+            <p>Apoio no uso de ferramentas digitais, resolução de dúvidas e organização de demandas.</p>
           </div>
           <div className="card">
             <i className="icon"><Smile size={18} /></i>
-            <h4>Experiência do Usuário</h4>
-            <p>Conectando pessoas, objetivos e interfaces com clareza</p>
+            <h4>UI/UX Design</h4>
+            <p>Interfaces pensadas para clareza, usabilidade e boa experiência.</p>
           </div>
           <div className="card">
             <i className="icon"><Lightbulb size={18} /></i>
-            <h4>Inovação</h4>
-            <p>Transformando ideias em soluções criativas e eficazes</p>
+            <h4>Resolução de Problemas</h4>
+            <p>Análise de necessidades e criação de soluções claras, funcionais e organizadas.</p>
           </div>
         </div>
       </div>
 
       {/* CTA */}
       <div className="cta-area">
-        <h3>Pronto para transformar sua ideia em realidade?</h3>
-        <p>Eu te ajudo a criar interfaces intuitivas e bonitas.</p>
+        <h3>Aberta a novas oportunidades na área de tecnologia</h3>
+        <p>Tenho interesse em atuar com desenvolvimento web, suporte a usuários, sistemas e soluções digitais que facilitem a rotina das pessoas</p>
 
         {/* BOTÃO COM ANIMAÇÃO USANDO FRAMER MOTION */}
         <div style={{ position: 'relative', display: 'inline-block' }}>
@@ -67,7 +71,7 @@ export default function About() {
   whileHover={{ scale: 1.03 }}
   whileTap={{ scale: 0.97 }}
 >
-  <span className="glow-text">Começar Projeto</span>
+  <span className="glow-text">Fale Comigo</span>
 </motion.button>
 
 

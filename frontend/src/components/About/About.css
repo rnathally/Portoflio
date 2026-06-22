@@ -139,6 +139,59 @@
   margin-bottom: 1.5rem;
 }
 
+/* BOTÃO CTA */
+.cta-scan-button,
+.cta-button {
+  background: #ffffff;
+  color: #7c3aed;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  padding: 1rem 2.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 210px;
+  box-shadow: 0 10px 24px rgba(71, 52, 100, 0.18);
+  transition: 
+    transform 0.25s ease,
+    background-color 0.25s ease,
+    color 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.cta-scan-button:hover,
+.cta-button:hover {
+  background: #f7f2ff;
+  color: #5b21b6;
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(71, 52, 100, 0.24);
+  border-color: #ffffff;
+}
+
+.cta-scan-button:active,
+.cta-button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(71, 52, 100, 0.18);
+}
+
+.cta-scan-button:focus,
+.cta-scan-button:focus-visible,
+.cta-button:focus,
+.cta-button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.25),
+              0 10px 24px rgba(71, 52, 100, 0.18);
+}
+
+.glow-text {
+  position: relative;
+  z-index: 1;
+}
 
 /* --- RESPONSIVIDADE --- */
 @media (max-width: 768px) {
@@ -172,6 +225,7 @@
     font-size: 0.95rem;
   }
 
+  .cta-scan-button,
   .cta-button {
     width: 100%;
     max-width: 280px;
@@ -197,68 +251,9 @@
     opacity: 0;
     transform: translateY(40px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.cta-scan-button {
-  position: relative;
-  background: transparent;
-  color: white;
-  border: 2px solid white;
-  padding: 1rem 2.5rem;
-  font-size: 1rem;
-  font-weight: 600;
-  border-radius: 999px;
-  cursor: pointer;
-  overflow: hidden;
-  z-index: 1;
-  transition: box-shadow 0.3s ease, outline 0.3s ease;
-}
-
-.cta-scan-button:hover {
-  box-shadow: 0 0 20px rgba(167, 139, 250, 0.4);
-}
-
-.cta-scan-button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -75%;
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.4) 50%,
-    transparent 100%
-  );
-  animation: scanLight 2.5s infinite;
-  z-index: 0;
-}
-
-@keyframes scanLight {
-  0% {
-    left: -75%;
-  }
-  100% {
-    left: 125%;
-  }
-}
-
-.glow-text {
-  position: relative;
-  z-index: 1;
-}
-
-
-/* Removendo contornos em todos os estados de foco */
-.cta-scan-button:focus,
-.cta-scan-button:focus-visible,
-.cta-scan-button:active {
-  outline: none !important;
-  box-shadow: none !important;
-  border-color: white; /* reforça a borda original */
 }
