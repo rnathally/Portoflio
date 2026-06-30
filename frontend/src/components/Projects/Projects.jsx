@@ -24,7 +24,8 @@ function Projects() {
       year: 2026,
       tags: ["React", "JavaScript", "Supabase", "CSS","Figma"],
       img: "/imagens/Dogdex.png",
-      emAndamento: true,
+      emAndamento: false,
+      link: "https://dogdex.vercel.app"
     },
 
     {
