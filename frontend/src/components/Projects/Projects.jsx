@@ -25,7 +25,7 @@ function Projects() {
       tags: ["React", "JavaScript", "Supabase", "CSS","Figma"],
       img: "/imagens/Dogdex.png",
       emAndamento: false,
-      link: "https://dogdex.vercel.app"
+      link: "https://dog-dex.vercel.app"
     },
 
     {
